@@ -2,7 +2,8 @@ var React = require('react');
 
 var About =  (props) => {
   return (
-    <h3>Nicola is the cutest</h3>
+    <h3>About</h3>
+    <p>Nicola is the cutest</p>
   )
 };
 
