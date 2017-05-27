@@ -1,10 +1,18 @@
 var React = require('react');
 
+$('p')
+
 var About =  (props) => {
   return (
     <div>
-      <h3>About</h3>
-      <p>Nicola is the cutest</p>
+      <h1 className="text-center">About</h1>
+      <p>Nicola is the cutest. Why?</p>
+      <ul>
+        Extra mammal!
+      </ul>
+      <ul>
+        Hugmonster!
+      </ul>
     </div>
   )
 };
